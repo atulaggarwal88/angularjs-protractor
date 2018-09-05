@@ -1,0 +1,28 @@
+{
+  "name": "testcafetown",
+  "version": "1.0.0",
+  "description": "TestCafeTown",
+  "main": "cafetown_spec.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atulaggarwal88/angularjs-protractor.git"
+  },
+  "author": "Atul Aggarwal",
+  "license": "ISC",
+  "bin": {
+    "protractor": "bin/protractor",
+    "webdriver-manager": "bin/webdriver-manager"
+  },
+  "bugs": {
+    "url": "https://github.com/atulaggarwal88/angularjs-protractor/issues"
+  },
+  "homepage": "https://github.com/atulaggarwal88/angularjs-protractor#readme",
+  "dependencies": {  
+    "protractor": "^5.4.0",
+	"selenium-webdriver": "3.6.0",
+    "webdriver-manager": "^12.1.0"
+  }
+}
